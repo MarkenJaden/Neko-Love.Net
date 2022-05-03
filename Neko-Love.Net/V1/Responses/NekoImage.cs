@@ -7,6 +7,10 @@ namespace Neko_Love.Net.V1.Responses;
 /// </summary>
 public class NekoImage
 {
-    public int code { get; set; }
-    public string url { get; set; }
+    [JsonProperty("code")] public int Code { get; set; }
+    
+    /// <summary>
+    ///     Image/GIF URL.
+    /// </summary>
+    [JsonProperty("url")] public string Url { get; set; }
 }

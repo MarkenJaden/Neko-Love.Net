@@ -12,7 +12,7 @@ public class NekoV1Client : BaseNekoClient
 {
     static NekoV1Client()
     {
-        HostUrl = "https://neko-love.xyz/api/v1/";
+        HostUrl = "https://neko-love.xyz/api/v1";
     }
 
     /// <summary>
@@ -120,7 +120,7 @@ public class NekoV1Client : BaseNekoClient
             }
 
             NsfwEndpoint tempEndpoint = endpoint;
-            while (tempEndpoint == NsfwEndpoint.Random)
+            while (tempEndpoint == NsfwEndpoint.Random && Enum.GetNames(typeof(NsfwEndpoint)).Length > 3)
             {
                 var r = new Random();
                 // random is 0

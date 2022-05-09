@@ -6,7 +6,7 @@
 [![Discord_MemberCount](https://badgen.net/discord/members/ZZGTwCZprC)](https://discord.gg/ZZGTwCZprC)
 
 `Neko-Love.Net` is an asynchronous library to interact with [Neko-Love](https://neko-love.xyz/) API, currently
-supporting both v1 API. If you love this repo, consider giving it a star :star:
+supporting v1 API. If you love this repo, consider giving it a star :star:
 
 # :question: How to use
 ### Version 1
